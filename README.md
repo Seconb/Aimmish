@@ -20,6 +20,7 @@
 - If the pip install thing doesn't work, uninstall and reinstall Python making sure you check "Add Python.exe to PATH" when you install it. In addition, make sure another version of Python already installed on your PC isn't causing issues.
 - If the Arduino script doesn't compile, then make sure you're waiting a few seconds before you press the "RESET" button on your Arduino Leonardo R3. If that doesn't help try the tip below
 - If your script doesn't compile, spoof your Arduino again using the Arduino spoofer and then go to %programfiles(x86)%\Arduino\hardware\arduino\avr\ by copy and pasting that into the Windows Search bar. Then, copy the boards.txt from there to %localappdata%\Arduino15\packages\arduino\hardware\avr\1.8.6 by copy and pasting it into the Windows Search bar. Next, right click the boards.txt files, go to properties, and check "Read-only". Save that. If you need to spoof your Arduino again, uncheck "Read-only" on both boards.txt files before doing so. It's really important that both boards.txt files are the same so confirm that they are and both are spoofed.
+- Make sure your Arduino's cable isn't trash
 ## Credits:
 - Seconb (me) - Made several changes and optimizations to RootKit's AI Aimbot in this fork
 - [RootKit Org](https://rootkit.org/) - [The original aimbot, from which this was forked](https://github.com/RootKit-Org/AI-Aimbot)
