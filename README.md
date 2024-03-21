@@ -12,7 +12,7 @@
 - [Video Tutorial Link](https://streamable.com/srqx16)
 - [Arduino IDE Download](https://downloads.arduino.cc/arduino-1.8.19-windows.exe)
 - [Python Download](https://www.python.org/ftp/python/3.9.10/python-3.9.10-amd64.exe)
-- Note: To change the aimbot's settings, open config.py in Notepad. The side mouse buttons are: "X1 Mouse Button" and "X2 Mouse Button". If it crashes when you try to set a keybind for a **number key** DM Seconb. (THIS IS THE ONLY REASON TO EVER DM ME FOR HELP)
+- Note: To change the aimbot's settings, open config.py in Notepad. The side mouse buttons are: "X1 Mouse Button" and "X2 Mouse Button". You can see all the keybinds by opening the utils folder, then opening keybinds.py in Notepad.
 
 ## Troubleshooting
 - Do not DM me on Discord. Seriously. You'll be blocked instantly.
