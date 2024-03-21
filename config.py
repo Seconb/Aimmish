@@ -18,7 +18,7 @@ autoSelectGame = True
 aimSpeed = 0.45
 
 # AI Confidence Level; By default, the aimbot will aim if it's at least 45% sure that it's looking at a player.
-confidence = 0.45
+confidence = 0.6
 
 # FOV Circle Size; Range it'll aim from, so like within X pixels of your mouse
 fovCircleSize = 100
@@ -49,7 +49,7 @@ trigAim = True
 # Which model do you want to use? Pick 1 for close range, pick 2 for long range.
 modelType = 2
 # modelType 2 is better overall and recommended for general games. For boxfights and such 1 is better.
-# modelType 2 also handles a higher confidence setting well
+# modelType 2 also handles a higher confidence setting well, 0.6 or higher (default) will work great with it, but modelType 1 requires 0.5 or below.
 
 # Screenshot FPS, this also limits the aimbot FPS
 limit_fps = 120
