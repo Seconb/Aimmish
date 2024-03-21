@@ -20,7 +20,7 @@ aimSpeed = 0.45
 # AI Confidence Level; By default, the aimbot will aim if it's at least 45% sure that it's looking at a player.
 confidence = 0.45
 
-# FOV Circle Size; Range it'll aim from
+# FOV Circle Size; Range it'll aim from, so like within X pixels of your mouse
 fovCircleSize = 100
 
 # Y Offset; self explanatory
@@ -37,7 +37,7 @@ centerOfScreen = True # I think you shouldn't change this
 holdAimBind = "Right Click" # default is right click which is usually what people use for fortnite
 # Triggerbot Keybind
 holdTrigBind = "C" # default is the c key
-# https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes <-- GO THERE TO CHANGE KEYBINDS
+# If you want to see a full list of keybinds, go to the Utils folder and open Keybinds.py in Notepad, and from there you can see which keys you can use.
 
 
 # Triggerbot FOV; Range it'll shoot within
@@ -48,6 +48,8 @@ trigAim = True
 
 # Which model do you want to use? Pick 1 for close range, pick 2 for long range.
 modelType = 2
+# modelType 2 is better overall and recommended for general games. For boxfights and such 1 is better.
+# modelType 2 also handles a higher confidence setting well
 
 # Screenshot FPS, this also limits the aimbot FPS
 limit_fps = 120
